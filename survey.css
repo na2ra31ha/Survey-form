@@ -1,0 +1,88 @@
+body{
+    width:100%;
+    height:100vh;
+    font-family:'Courier New', Courier,;
+    background: linear-gradient(180deg, rgba(99, 136, 238, 0.81), rgba(56, 92, 197, 0.832), rgba(10, 75, 188, 0.702));
+   
+}
+.title-center{
+    text-align: center;
+    margin:2em 0 0 0 ;
+    font-family:'Lucida Sans';
+    font-size: 29px;
+    color:rgb(255,255,255);
+}
+.description-center{
+    text-align:center;
+    margin:0;
+    font-size: 26px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+    color:rgb(255,255,255);
+}
+form{
+    width:80%;
+    background-color:rgba(0, 0, 0, 0.451) ;
+    margin: 1em auto;
+    padding:20px;
+
+}
+.space{
+    margin: 21px  0;
+    padding: 5px;
+}
+p{
+    margin:3px;
+    font-size:20px;
+    color:rgb(255,255,255);
+}
+.on-span{
+   font-size:15px;
+}
+input,textarea,select{
+    margin: 0 0 1em 0;
+    width:100%;
+    min-height:2em;
+    font-size:medium;
+}
+input,select{
+    color:rgba(58, 56, 56, 0.813);
+}
+select{
+    size: 20px;
+}
+input{
+    border-radius: 10px;
+    border-style: hidden;
+}
+textarea{
+    font-size:18px;
+}
+.inline{
+    width:unset;
+    margin: 0.1em 0;
+    vertical-align: middle;
+    width: 20px;
+}
+label{
+    display:block;
+    margin: 0.2em 0;
+    
+}
+.label-one{
+    font-size:20px;
+    color:rgb(255,255,255);
+
+}
+input[type="placeholder"]{
+    margin: 1px 1px;
+}
+.submit-button{
+    width:100%;
+    margin: 1em 0;
+    background-color: rgb(18, 150, 11);
+    min-height:3rem;
+    color:rgb(255,255,255);
+    font-size:1em;
+    border:none;
+}
